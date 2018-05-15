@@ -1,0 +1,44 @@
+// Créer un client
+POST http://domaine.com/clients
+
+//Afficher un client
+GET http://domaine.com/clients/XX
+
+// MàJ un client
+PUT http://domaine.com/clients/XX
+
+//Supprimer un client
+DELETE http://domaine.com/clients/XX
+
+// Créer une pizza
+POST http://domaine.com/pizzas
+
+//Afficher une pizza
+GET http://domaine.com/pizzas/XX
+
+// MàJ une pizza
+PUT http://domaine.com/pizzas/XX
+
+//Supprimer une pizza
+DELETE http://domaine.com/pizzas/XX
+
+// Créer un livreur
+POST http://domaine.com/livreurs
+
+//Afficher un livreur
+GET http://domaine.com/livreurs/XX
+
+// MàJ un livreur
+PUT http://domaine.com/livreurs/XX
+
+//Supprimer un livreur
+DELETE http://domaine.com/livreurs/XX
+
+//Afficher les commandes d'un livreur
+GET http://domaine.com/livreurs/XX/commandes
+
+//Afficher les commandes d'un client
+GET http://domaine.com/clients/XX/commandes
+
+//Afficher les pizzas d'une commande
+GET http://domaine.com/commandes/XX/pizzas

@@ -1,0 +1,37 @@
+body {
+    background-color: #EFECCA;
+    font-family: 'Helvetica', 'Arial';
+}
+
+h1, h2 {
+    color: #C03000;
+}
+
+#pizzeria {
+    color: #4BB5C1;
+}
+
+li {
+    background-color: #C03000;
+    display: inline;
+    border-style: solid;
+    border-color: #660000;
+    margin: 5px;
+    padding: 3px;
+}
+
+li a {
+    color: white;
+    font-size: 80%;
+    text-decoration: none;
+}
+
+li:hover, li > a:visited {
+    background-color: #009900
+}
+
+footer a {
+    color: #0000FF;
+    text-decoration: none;  
+    font-weight: bold;
+}

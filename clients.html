@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" media="screen" href="clients.css" />
         <title>Ajout d'un client</title>
     </head>
 
@@ -14,22 +15,28 @@
 
                 <h3>Création d'un client</h3>
 
-                <form method="POST" action="#">
+                <a href="liste_clients.html"><< Retour à la liste</a>
 
-                    <label>Nom</label>
-                    <input type="text" />
-                    <br />
-                    <label>Prénom</label>
-                    <input type="text" />
-                    <br />
-                    <label>Ville</label>
-                    <input type="text" />
-                    <br/>
-                    <label>Age</label>
-                    <input type="text" />
-                    <br/>
-                    <input type="submit" value="Ajouter" />
-                </form>
+                <div id="form_align">
+
+                    <form method="POST" action="#">
+
+                        <label>Nom</label>
+                        <input type="text" />
+                        <br />
+                        <label>Prénom</label>
+                        <input type="text" />
+                        <br />
+                        <label>Ville</label>
+                        <input type="text" />
+                        <br/>
+                        <label>Age</label>
+                        <input type="text" />
+                        <br/>
+                        <input id="button_ajout" type="submit" value="Ajouter" />
+                    </form>
+
+                </div>
             </article>
 
             <article>

@@ -1,0 +1,36 @@
+body {
+    font-family: 'Helvetica';
+}
+
+section {
+    background-color: #EFECCA;
+}
+
+h2 {
+    color: #C03000;
+}
+
+h3 {
+    color: #4BB5C1;
+}
+
+a {
+    color: #96CA2D;
+}
+
+input {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#button_ajout {
+    background-color: red;
+}
+
+#form_align {
+    text-align: center;
+}
+
+label {
+    float: left;
+}
